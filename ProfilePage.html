@@ -1,0 +1,110 @@
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a class="logo" href="index.html">Freelance<span>Hub</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="freelancers.html">Find Freelancers</a></li>
+      <li><a href="jobs.html">Find Jobs</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="btn btn-outline btn-sm" href="login.html">Login</a>
+      <a class="btn btn-gold btn-sm" href="register.html">Sign Up</a>
+    </div>
+    <button aria-label="Toggle menu" class="nav-toggle">☰</button>
+  </div>
+</nav>
+
+<section class="section container">
+  <div class="profile-header">
+    <div class="avatar teal">U</div>
+    <div>
+      <h1>Your Name</h1>
+      <div class="profile-title">Add your professional title</div>
+      <div class="profile-meta">
+        <span>Your account email will appear here</span>
+      </div>
+    </div>
+    <div class="profile-actions">
+      <a class="btn btn-outline" href="#editProfile">Edit Profile</a>
+    </div>
+  </div>
+
+  <div class="profile-grid">
+    <div>
+      <div class="profile-block">
+        <h2>About</h2>
+        <p id="profileAbout">You haven't added an About section yet.</p>
+      </div>
+
+      <div class="profile-block">
+        <h2>Skills</h2>
+        <p id="profileSkills">No skills added yet.</p>
+      </div>
+
+      <div class="profile-block">
+        <h2>Experience</h2>
+        <p id="profileExperience">No experience added yet.</p>
+      </div>
+
+      <div class="profile-block">
+        <h2>Portfolio</h2>
+        <p id="profilePortfolio">No portfolio projects added yet.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="profile-block" id="editProfile">
+        <h2>Edit your profile</h2>
+        <p>Add only information that is true about you. You can leave any field blank.</p>
+
+        <form id="profileEditForm">
+          <div class="field">
+            <label for="profileTitle">Professional title</label>
+            <input id="profileTitle" type="text"
+              placeholder="e.g. Student, UI/UX Designer, Web Developer">
+          </div>
+
+          <div class="field">
+            <label for="profileAboutInput">About you</label>
+            <textarea id="profileAboutInput" rows="4"
+              placeholder="Write a short introduction about yourself"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="profileSkillsInput">Skills</label>
+            <textarea id="profileSkillsInput" rows="3"
+              placeholder="List your skills, separated by commas"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="profileExperienceInput">Experience</label>
+            <textarea id="profileExperienceInput" rows="3"
+              placeholder="Add your actual work, internship or project experience"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="profilePortfolioInput">Portfolio / Projects</label>
+            <textarea id="profilePortfolioInput" rows="3"
+              placeholder="Describe projects you have actually worked on, or leave blank"></textarea>
+          </div>
+
+          <button class="btn btn-gold btn-block" type="submit">
+            Save Profile
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>© 2026 FreelanceHub. College project prototype.</span>
+      <span>Built with HTML, CSS &amp; JavaScript</span>
+    </div>
+  </div>
+</footer>
+
